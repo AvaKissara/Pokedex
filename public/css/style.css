@@ -134,6 +134,36 @@ button.accordion-button:not(.collapsed) {
 .recompense-item>img{
  height: 160px;
 }
+
+
+@media screen and (min-width: 1073px) and (max-width:1600px)
+{
+    .card-container {
+        width: 84%;
+        display: grid;
+        margin: 4rem auto 0;
+        grid-template-columns: auto auto auto;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 752px) and(max-width:1072px)
+{
+    .card-container {
+        width: 80%;
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and(max-width: 751px)
+{
+    .card-container {
+        margin: 0 auto;
+        grid-template-columns: auto;
+    }
+}
 /*-----------------------------------------
 TYPES
 -----------------------------------------*/
@@ -247,36 +277,6 @@ TYPES
     width: 65%;
 }
 
-@media screen and (min-width: 1073px) and (max-width:1600px)
-{
-    .card-container {
-        width: 84%;
-        display: grid;
-        margin: 4rem auto 0;
-        grid-template-columns: auto auto auto;
-        padding-bottom: 40px;
-    }
-}
-
-@media screen and (min-width: 752px) and(max-width:1072px)
-{
-    .card-container {
-        width: 80%;
-        display: grid;
-        margin: 0 auto;
-        grid-template-columns: auto auto;
-    }
-}
-
-@media screen and(max-width: 751px)
-{
-    .card-container {
-        width: 80%;
-        display: grid;
-        margin: 0 auto;
-        grid-template-columns: auto;
-    }
-}
 
  
 /*-----------------------------------------
